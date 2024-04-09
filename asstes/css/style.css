@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+}
+
+h1, h2, p{
+    color: white;
+}
+
+h1{
+    margin: 0;
+}
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: medium;
+  text-align: center;
+  font-size: 3.2em;
+}
+
+header{
+    position: relative;
+}
+
+.imgcabecera{
+    margin: auto;
+    display: block;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+}
+
+main img{
+    width: 399px;
+    height: 237px;
+    margin-right: 150px;
+}
+
+main p{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: light;
+  text-align: left;
+  font-size: 1em;
+  margin-left: 150px;
+}
+
+.carac{
+    background-color: #1E1A13;
+    height: 348px;
+}
+
+section h2{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  font-size: 3.2em;
+  text-align: center
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 200px 30px 200px;
+}
+
+.iconos-flex{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.fa-solid{
+    font-size: 2em;
+}
+
+.fa-solid p{
+    text-align: center;
+}
+
+h2{
+    padding-top: 75px;
+}
+
+.iguanas{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 300px 30px 300px;
+}
+
+.iguanas img{
+    width: 316px;
+    height: 202px;
+}
+
+footer{
+    background-color: #1E1A13;
+    line-height: 5em;
+}
+
+footer p{
+    margin: 0;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    font-size: 1.2em;
+    text-align: center;
+}
